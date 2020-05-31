@@ -1,0 +1,9 @@
+*.aux
+*.log
+*.swo
+*.synctex.gz
+*.DS_Store
+*.swp
+*.toc
+*.out
+*.dvi

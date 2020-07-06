@@ -1,1 +1,1 @@
-A place for me to dislay my poetry.
+A place for me to display my poetry.

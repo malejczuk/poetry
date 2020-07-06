@@ -16,5 +16,5 @@ The fault not hers, her blindness is not cruel. <br>
 I see this now and stand to wipe my tears; <br>
 Those born into this game don't make the rules. <br>
 
-The path is clear; if Time stops not to breathe, <br>
+The path lies clear; if Time stops not to breathe, <br>
 Go forth and fight -- at least she must be seized! <br>

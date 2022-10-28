@@ -1,0 +1,59 @@
+\documentclass[11pt, oneside]{article}
+\usepackage{geometry}                           % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                                  % ... or a4paper or a5paper or ... 
+%\usepackage[parfill]{parskip}                  % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}                           % Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\usepackage{longtable}
+\usepackage{verse}
+
+\setlength{\parindent}{0pt} % Disable paragraph indentation
+\newcommand{\poemauthorcenter}[1]{\nopagebreak{\centering\footnotesize\textsc{#1}\par}} % Author as a footnote at the end of the poem center aligned
+\newcommand{\poemdatecenter}[1]{\nopagebreak{\centering\scriptsize\textsc{#1}\par}} % Author as a footnote at the end of the     poem center aligned
+\newcommand{\poemdateleft}[1]{\nopagebreak{\raggedright\scriptsize\textsc{#1}\par}} % Author as a footnote at the end of the     poem center aligned
+\newcommand{\poemauthorright}[1]{\nopagebreak{\raggedleft\footnotesize\textsc{#1}\par}} % Author as a footnote at the end of the poem aligned right
+\newcommand{\poemauthorleft}[1]{\nopagebreak{\raggedright\footnotesize\textsc{#1}\par}} % Author as a footnote at the end of the poem aligned right
+% \renewcommand{\poemtitlefont}{\normalfont\bfseries\large\centering} % Define the poem title style
+\renewcommand{\poemtitlefont}{\normalfont\bfseries\large\raggedright} % Define the poem title style
+\setlength{\stanzaskip}{0.75\baselineskip} % The distance between stanzas
+\setlength{\afterpoemtitleskip}{-0.5\baselineskip}% The distance between stanzas
+\pagestyle{empty} % Stop page numbering through the document
+
+\author{}
+\date{2020-07-05}
+
+\begin{document}
+
+% create verse section for title only
+% easiest way to avoid undesired indentation of poem author
+\begin{verse}
+\poemtitle{Sonnet 1}
+\end{verse}
+
+\begin{verse}
+\poemauthorleft{Kristoff A. Malejczuk} % left-aligned
+\medskip
+
+How shocked am I to feel the Sun's sharp rays, \\
+Perplexed I question where did Winter go? \\
+My world stands still as seasons waltz unfazed, \\
+No angel's plea can cause the Earth to slow. \\!
+
+Have I a right to curse the passing time? \\
+This planet spins as even mountains hush, \\
+And watching them I see I too will die: \\
+Oh Time, why must you be in such a rush? \\!
+
+Despite her power, Time was given no ears, \\
+The fault not hers, her blindness is not cruel. \\
+I see this now and stand to wipe my tears; \\
+Those born into this game don't make the rules. \\!
+
+The path lies clear; if Time stops not to breathe, \\
+Go forth and fight -- at least she must be seized!
+
+\end{verse}
+\end{document}
+
